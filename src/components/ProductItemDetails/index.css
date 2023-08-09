@@ -1,0 +1,131 @@
+/* Write your CSS here */
+
+.product-main-container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  width: 100%;
+  font-family: roboto;
+}
+
+.product-img-container {
+  border-radius: 20px;
+  min-width: 600px;
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.product-title {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.h-con {
+  display: flex;
+  align-items: center;
+}
+
+.rating-box {
+  display: flex;
+  background-color: #3b82f6;
+  color: white;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.star-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+}
+
+.text {
+  font-size: 17px;
+}
+
+.check-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.items-count-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.count-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.num-text {
+  font-size: 19px;
+}
+
+.add-cart-btn {
+  background-color: #3b82f6;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+
+.similar-products-sec {
+  padding: 50px;
+}
+
+.similar-products-list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.loading-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.image-failure {
+  width: 60%;
+}
+
+.error-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.continue-shopping {
+  background-color: #3b82f6;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}

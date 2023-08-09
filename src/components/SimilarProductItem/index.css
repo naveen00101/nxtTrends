@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.similar-product {
+  width: 250px;
+  margin-right: 50px;
+}
+
+.image-box {
+  width: 250px;
+}
+
+.similar-image {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.similar-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bottom-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar-price {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.similar-rating-box {
+  display: flex;
+  background-color: #3b82f6;
+  color: white;
+  align-items: center;
+  padding: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
