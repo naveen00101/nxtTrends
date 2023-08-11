@@ -86,7 +86,7 @@ class ProductItemDetails extends Component {
   decreaseNoOfItems = () => {
     const {noOfItems} = this.state
 
-    if (noOfItems !== 0) {
+    if (noOfItems !== 1) {
       this.setState(prevState => ({noOfItems: prevState.noOfItems - 1}))
     }
   }
